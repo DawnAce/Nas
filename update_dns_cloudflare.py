@@ -2,9 +2,9 @@ import sys
 import requests
 import re
 
-ZONE_ID = '7b295641b7376cd6f03e17351e16e18c'
-CF_EMAIL = 'chen954482592@gmail.com'
-CF_API_KEY = 'dd48401669bc127e5977c9619f12afdfeb15e'
+ZONE_ID = '{zone id, you can find under your domain}'
+CF_EMAIL = '{your email}'
+CF_API_KEY = '{global API KEY}'
 CLOUD_API_URL = 'https://api.cloudflare.com/client/v4/zones/{}'.format(ZONE_ID)
 
 def get_my_ip():
